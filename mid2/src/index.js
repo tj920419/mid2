@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+window.addEventListener('load', () => {
+  ReactDOM.render(<App />, document.getElementById('root'));
+});
 // ReactDOM.render(
 //   <React.StrictMode>
 //     <App />

@@ -309,8 +309,4 @@ class App extends React.Component {
   }
 }
 
-window.addEventListener('load', () => {
-  ReactDOM.render(<App />, document.getElementById('root'));
-});
-
 export default App;
